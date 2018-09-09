@@ -1,0 +1,59 @@
+{
+  "name": "js-webpack-react-apollo-boilerplate",
+  "version": "0.0.1",
+  "description": "Javascript React Apollo Boilerplate with babel and webpack",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open --hotOnly --mode development",
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jcperez-ch/js-webpack-react-apollo-boilerplate.git"
+  },
+  "keywords": [
+    "react",
+    "apollo",
+    "boilerplate",
+    "webpack"
+  ],
+  "author": "JC Perez Chavez <jc.perezchavez@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jcperez-ch/js-webpack-react-apollo-boilerplate/issues"
+  },
+  "homepage": "https://github.com/jcperez-ch/js-webpack-react-apollo-boilerplate#readme",
+  "dependencies": {
+    "apollo-boost": "^0.1.15",
+    "apollo-client": "^2.3.8",
+    "emotion": "^9.2.8",
+    "emotion-theming": "^9.2.6",
+    "graphql": "^0.13.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.5.0",
+    "react-apollo": "^2.1.11",
+    "react-dom": "^16.5.0",
+    "react-emotion": "^9.2.8",
+    "react-router-dom": "^4.3.1",
+    "reset-css": "^4.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "@types/react": "^16.4.13",
+    "@types/react-dom": "^16.0.7",
+    "babel-loader": "^8.0.2",
+    "babel-plugin-emotion": "^9.2.8",
+    "babel-plugin-module-resolver": "^3.1.1",
+    "babel-plugin-transform-imports": "^1.5.1",
+    "css-loader": "^1.0.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.17.2",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.8"
+  }
+}
