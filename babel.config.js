@@ -1,10 +1,16 @@
 module.exports = {
-  presets: ['@babel/preset-env', '@babel/preset-react'],
+  presets: [
+    ['@babel/preset-env', { modules: false }],
+    '@babel/preset-react',
+  ],
   plugins: [
-    ["emotion", { "sourceMap": true, "autoLabel": true }],
+    ['emotion', {
+      sourceMap: true,
+      autoLabel: true,
+    }],
     ['module-resolver', {
       root: ['.'],
-      alias: { '@': './src' }
-    }]
-  ]
+      alias: { '@': './src' },
+    }],
+  ],
 };
