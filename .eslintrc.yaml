@@ -1,0 +1,21 @@
+env:
+  browser: true
+parser: babel-eslint
+extends: airbnb
+settings:
+  import/resolver:
+    babel-module:
+      root:
+        - .
+      alias:
+        '@': ./src
+rules:
+  react/jsx-filename-extension:
+    - error
+    - extensions:
+      - .js
+      - .jsx
+  react/prefer-stateless-function:
+    - off
+  react/prop-types:
+    - off
